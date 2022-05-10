@@ -1,5 +1,42 @@
+:root {
+    /* Colors */
+    --background-main: #dadbd4;
+    --background-lightgreen: #009688;
+}
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(0deg, var(--background-main) 85%, var(--background-lightgreen) 85%);
+    
+} 
+.main-container{
+    width: 80%;
+    height: 90%;
+    display: flex;
+    /* test */
+    background-color: #8edafc;
+}
+.left-container{
+    width: 40%;
+    height: 100%;
+    /* test */
+    background-color: #a7a7a7;
+}
+.right-container{
+    width: 60%;
+    height: 100%;
+    /* test */
+    background-color: #d5f9ba;
 }
